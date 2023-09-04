@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8968259405587409617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6369027580170268908}
+  - component: {fileID: 2436790943269294074}
+  m_Layer: 0
+  m_Name: CostumerCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6369027580170268908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8968259405587409617}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -904.9, y: 57.4, z: 565.8}
+  m_LocalScale: {x: 15, y: 15, z: 15}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2436790943269294074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8968259405587409617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3432b7d4fc38e2a40a8a8fe0ea6fe0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AAAA: 0
+  LEVEL1: 0
+  LEVEL2: 0
+  counterC: 0
+  startcounterC: 0
+  stop: 0
+  walking: 0
+  "\u0131dle": 0
+  i: 0
+  h: 0
+  Costumers:
+  - {fileID: 2012788126498577425, guid: 02f4e16ddb1f2c64199c78f7b93f5034, type: 3}
+  - {fileID: 4963770621756181403, guid: 18d22cf3fd0274f4fa057091ed62f206, type: 3}
+  - {fileID: 699188202681899731, guid: b89f6bf41a444664f8bdbe05749a3bff, type: 3}
+  - {fileID: 7912700327314341851, guid: c967a5ef555020f49b73e2a8709c8209, type: 3}
+  - {fileID: 2961259103326716545, guid: 4d62044c4f60d7849a3a296fe8a4136f, type: 3}
+  - {fileID: 9147753951720920487, guid: 01acfff56ed14ff4c82ebb87d14eceb7, type: 3}
+  - {fileID: 6806015648292332124, guid: 5e36103aa13b0064a8a1bee93827a4e7, type: 3}
+  - {fileID: 5816796307117484236, guid: 599b9c0a636508e4c822feef5ec456e2, type: 3}
+  - {fileID: 3896997735221666785, guid: 3cdce58119b5664488afc981465d5072, type: 3}
+  - {fileID: 3619875251224822807, guid: c79805a9bf843ae4ea3ec1ad7b1aa24f, type: 3}
+  - {fileID: 9194647973002925107, guid: f5a5cdbda0244584285e019c036d4f48, type: 3}
+  - {fileID: 2946635596181693798, guid: 9f35dc3a3a978c549aa7651bdc0fca7f, type: 3}
+  Table1:
+  - {fileID: 0}
+  - {fileID: 0}
+  lvl1table1:
+  - {fileID: 4963770621756181403, guid: 18d22cf3fd0274f4fa057091ed62f206, type: 3}
+  - {fileID: 2946635596181693798, guid: 9f35dc3a3a978c549aa7651bdc0fca7f, type: 3}
+  - {fileID: 5816796307117484236, guid: 599b9c0a636508e4c822feef5ec456e2, type: 3}
+  - {fileID: 9147753951720920487, guid: 01acfff56ed14ff4c82ebb87d14eceb7, type: 3}
+  Table2:
+  - {fileID: 0}
+  - {fileID: 0}
+  lvl1table2:
+  - {fileID: 3619875251224822807, guid: c79805a9bf843ae4ea3ec1ad7b1aa24f, type: 3}
+  - {fileID: 2012788126498577425, guid: 02f4e16ddb1f2c64199c78f7b93f5034, type: 3}
+  - {fileID: 7912700327314341851, guid: c967a5ef555020f49b73e2a8709c8209, type: 3}
+  - {fileID: 6806015648292332124, guid: 5e36103aa13b0064a8a1bee93827a4e7, type: 3}
+  Table3:
+  - {fileID: 0}
+  - {fileID: 0}
+  lvl1table3:
+  - {fileID: 9194647973002925107, guid: f5a5cdbda0244584285e019c036d4f48, type: 3}
+  - {fileID: 3896997735221666785, guid: 3cdce58119b5664488afc981465d5072, type: 3}
+  - {fileID: 699188202681899731, guid: b89f6bf41a444664f8bdbe05749a3bff, type: 3}
+  - {fileID: 2961259103326716545, guid: 4d62044c4f60d7849a3a296fe8a4136f, type: 3}
+  costumerSpawnPoint: {fileID: 0}
+  CostumerSpawnPoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
